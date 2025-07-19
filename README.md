@@ -1,6 +1,6 @@
-# Internhub
+# InternHub
 
-**Internhub** is a platform built for interns in the tech space to monitor their internship status, manage profiles, and stay informed throughout their journey. It caters to interns from various disciplines, including:
+**InternHub** is a platform built for interns in the tech space to monitor their internship status, manage profiles, and stay informed throughout their journey. It caters to interns from various disciplines, including:
 
 - Frontend Development  
 - Backend Development  
@@ -18,7 +18,7 @@
 
 ## 👩‍💻 Who It's For
 
-Internhub is ideal for tech interns seeking clarity and organization in their internship processes, with an intuitive interface that helps track progress and stay connected.
+InternHub is ideal for tech interns seeking clarity and organization in their internship processes, with an intuitive interface that helps track progress and stay connected.
 
 ---
 
