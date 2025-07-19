@@ -1,5 +1,5 @@
 import viteLogo from '../assets/vite.svg'
-import FormInput from '../components/FormInput';
+import FormInput from '../components/formInput.jsx';
 
 const Login = () => {
   return (
