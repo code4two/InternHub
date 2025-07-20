@@ -19,7 +19,7 @@ const MainLayout = () => {
         </div>
       </nav>
       <div className="grid grid-cols-12">
-      <div className="col-span-3 xl:col-span-2 bg-indigo-800 text-white text-xl hidden md:block">
+      <div className="col-span-3 bg-indigo-800 text-white text-xl hidden md:block">
         <div className="flex flex-row mb-5 px-5 font-bold mt-6 p-2">
             <div className='flex flex-row gap-2 items-center'>
                 <img src={viteLogo} alt="DevsumLogo"/>
@@ -37,7 +37,7 @@ const MainLayout = () => {
             <Theme title="Dark" Icon={CgDarkMode} />
         </div>
       </div>
-      <div className='col-span-9 xl:col-span-10 bg-slate-600 hidden md:block'>
+      <div className='col-span-9 bg-slate-600 hidden md:block'>
         <nav className='flex flex-row justify-end items-center text-xl gap-6 px-4 sm:px-8 mt-6'>
           <div className='flex flex-row justify-between items-center'>
             <a href="#"><img className='rounded-full w-15 h-15 mx-3' src={profilePic} alt="profile pic" /></a>
