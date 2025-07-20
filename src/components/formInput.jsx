@@ -45,7 +45,7 @@ const FormInput = () => {
             <label htmlFor="Password">Password</label>
             <input className={`p-2 mt-2 border border-gray-400 outline-none font-normal ${passwordError ? 'border-red-500 border-2' : 'border-gray-300'}`} type="password" placeholder='e.g. teslaferrari#25' value={password} onChange={(e) => setPassword(e.target.value)} />
         </div>
-        <button type="submit" className="text-white w-full bg-blue-900 py-2 text-center cursor-pointer border-0">
+        <button type="submit" className="text-white w-full bg-indigo-800 py-2 text-center cursor-pointer border-0">
             Log In
         </button>
     </form>

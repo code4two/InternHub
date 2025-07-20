@@ -13,7 +13,7 @@ const Candidate = () => {
                 <h2 className='my-6 text-3xl'>All Candidates ()</h2>
             </div>
             <div className='mt-4'>
-              <button className='bg-blue-900 font-semibold text-xl rounded-lg py-3 px-8'><span className='text-white'><FaPlus /></span>Add Candidiate</button>
+              <button className='bg-indigo-800 font-semibold text-xl rounded-lg py-3 px-8'><span className='text-white'><FaPlus /></span>Add Candidiate</button>
             </div>
         </div>
         <div className='bg-indigo-700 mb-10'>

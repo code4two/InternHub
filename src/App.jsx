@@ -5,7 +5,7 @@ import Dashboard from './pages/dashboard.jsx';
 const App = () => {
   return (
     <Router>
-      <div className="px-4 sm:px-8">
+      <div>
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/dashboard" element={<Dashboard />} />
