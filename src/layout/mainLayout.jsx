@@ -19,25 +19,25 @@ const MainLayout = () => {
         </div>
       </nav>
       <div className="grid grid-cols-12">
-      <div className="col-span-3 bg-indigo-800 text-white text-xl hidden md:block">
+      <div className="col-span-3 xl:col-span-2 bg-indigo-800 text-white text-xl hidden md:block">
         <div className="flex flex-row mb-5 px-5 font-bold mt-6 p-2">
             <div className='flex flex-row gap-2 items-center'>
                 <img src={viteLogo} alt="DevsumLogo"/>
                 <h2 className='text-xl'>DEVSUM</h2>
             </div>
         </div>
-        <div className='px-5 pt-2 pb-53'>
+        <div className='px-5 pt-2 pb-54'>
             <PageBar title="Dashboard" Icon2={RxDashboard}/>
             <PageBar title="Candidate" Icon2={PiStudentBold} />
             <PageBar title="Internship" Icon2={IoMdSchool}/>
             <PageBar title="Profile" Icon2={CgProfile}/>
         </div>
-        <div className='flex flex-row pt-53'>
+        <div className='flex flex-row pt-54'>
             <Theme title="Light" Icon={MdLightMode} />
             <Theme title="Dark" Icon={CgDarkMode} />
         </div>
       </div>
-      <div className='col-span-9 bg-slate-600 hidden md:block'>
+      <div className='col-span-9 xl:col-span-10 bg-slate-600 hidden md:block'>
         <nav className='flex flex-row justify-end items-center text-xl gap-6 px-4 sm:px-8 mt-6'>
           <div className='flex flex-row justify-between items-center'>
             <a href="#"><img className='rounded-full w-15 h-15 mx-3' src={profilePic} alt="profile pic" /></a>
